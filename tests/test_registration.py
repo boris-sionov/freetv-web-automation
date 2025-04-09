@@ -1,3 +1,4 @@
+import time
 
 import allure
 import pytest
@@ -37,12 +38,15 @@ class TestLogin(PageFactory):
 
     @allure.description("Test 07 - Fill in credit card info")
     def test_07_enter_credit_card_info(self):
-        self.registration_page.fill_credit_card_info()
+        credit_card =
+        year_exp =
+        month_exp =
+        cvv =
+        id_number =
+        self.registration_page.fill_credit_card_info(credit_card, year_exp, month_exp, cvv,id_number)
 
     @allure.description("Test 08 - Finish Registration")
     def test_08_finish(self):
         self.registration_page.click_on_privacy_agree()
-        # self.registration_page.click_on_finish()
-        # time.sleep(10)
-
-
+        self.registration_page.click_on_finish()
+        time.sleep(10)
