@@ -38,11 +38,12 @@ class TestLogin(PageFactory):
 
     @allure.description("Test 07 - Fill in credit card info")
     def test_07_enter_credit_card_info(self):
-        credit_card =
-        year_exp =
-        month_exp =
-        cvv =
-        id_number =
+        # Add credit card info before running
+        credit_card = ""
+        year_exp = ""
+        month_exp = ""
+        cvv = ""
+        id_number = ""
         self.registration_page.fill_credit_card_info(credit_card, year_exp, month_exp, cvv,id_number)
 
     @allure.description("Test 08 - Finish Registration")
