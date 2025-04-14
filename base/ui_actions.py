@@ -163,7 +163,7 @@ class UIActions(BasePage):
         start_time = time.time()
         imap_server = "imap.gmx.com"
         email_address = "boris.freetv@gmx.com"  # Replace with your GMX email
-        password = "Israel23-02"  # Replace with your GMX password
+        password = ""  # 
 
         # Start timing to check how long we've been waiting for the OTP
 
