@@ -1,0 +1,2 @@
+INFO     App_Run_Test:base_page.py:14 Waiting for element: .FloatingInput_wrapper__eyHuD.border-gray-border
+INFO     App_Run_Test:ui_actions.py:21 Clicked on '.FloatingInput_wrapper__eyHuD.border-gray-border' element

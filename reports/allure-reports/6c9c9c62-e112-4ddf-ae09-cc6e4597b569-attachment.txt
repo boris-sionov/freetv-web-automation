@@ -1,0 +1,19 @@
+INFO     App_Run_Test:ui_actions.py:57 Connecting to GMX IMAP server...
+INFO     App_Run_Test:ui_actions.py:63 Connected to GMX email account and inbox selected.
+INFO     App_Run_Test:ui_actions.py:76 No new emails yet. Retrying...
+INFO     App_Run_Test:ui_actions.py:103 OTP successfully retrieved: 4659
+INFO     App_Run_Test:ui_actions.py:107 OTP email deleted from inbox.
+DEBUG    App_Run_Test:registration_page.py:69 first digit is: 4
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="יש להזין קוד אימות שנשלח אליך בSMS - ספרה ראשונה"]
+INFO     App_Run_Test:ui_actions.py:30 Filled '4' into 'role=textbox[name="יש להזין קוד אימות שנשלח אליך בSMS - ספרה ראשונה"]' element
+DEBUG    App_Run_Test:registration_page.py:71 2nd digit is: 6
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="ספרה שניה"]
+INFO     App_Run_Test:ui_actions.py:30 Filled '6' into 'role=textbox[name="ספרה שניה"]' element
+DEBUG    App_Run_Test:registration_page.py:73 3rd digit is: 5
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="ספרה שלישית"]
+INFO     App_Run_Test:ui_actions.py:30 Filled '5' into 'role=textbox[name="ספרה שלישית"]' element
+DEBUG    App_Run_Test:registration_page.py:75 4rt digit is: 9
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="ספרה רביעית"]
+INFO     App_Run_Test:ui_actions.py:30 Filled '9' into 'role=textbox[name="ספרה רביעית"]' element
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="בואו נמשיך"]
+INFO     App_Run_Test:ui_actions.py:21 Clicked on 'role=button[name="בואו נמשיך"]' element

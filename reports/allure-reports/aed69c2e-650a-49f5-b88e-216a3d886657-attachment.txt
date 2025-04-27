@@ -1,0 +1,2 @@
+INFO     App_Run_Test:base_page.py:13 Waiting for element: .__1_btn__lmkJ0 > .Button_button_main__pamo6
+INFO     App_Run_Test:ui_actions.py:17 Clicked on '.__1_btn__lmkJ0 > .Button_button_main__pamo6' element

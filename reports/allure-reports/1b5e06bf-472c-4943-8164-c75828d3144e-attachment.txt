@@ -1,0 +1,11 @@
+INFO     App_Run_Test:base_page.py:13 Waiting for element: [name="firstName"]
+ERROR    App_Run_Test:base_page.py:19 Element '[name="firstName"]' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("[name=\"firstName\"]") to be visible
+  -     - waiting for navigation to finish...
+
+ERROR    App_Run_Test:ui_actions.py:32 Error while getting element: [name="firstName"]. Exception: Element '[name="firstName"]' not found within 5000ms.
+INFO     App_Run_Test:base_page.py:13 Waiting for element: [name="lastName"]
+INFO     App_Run_Test:ui_actions.py:30 Filled 'Automation' into '[name="lastName"]' element
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=checkbox[name="קראתי ואישרתי"]
+INFO     App_Run_Test:ui_actions.py:21 Clicked on 'role=checkbox[name="קראתי ואישרתי"]' element

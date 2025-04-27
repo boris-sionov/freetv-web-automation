@@ -1,0 +1,8 @@
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="מספר כרטיס אשראי"]
+INFO     App_Run_Test:ui_actions.py:21 Clicked on 'role=button[name="מספר כרטיס אשראי"]' element
+INFO     App_Run_Test:base_page.py:13 Waiting for element: #card-number
+ERROR    App_Run_Test:base_page.py:19 Element '#card-number' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("#card-number") to be visible
+
+ERROR    App_Run_Test:ui_actions.py:62 Action 'fill' on '#card-number' in '#ua_main_aria iframe' failed: Element '#card-number' not found within 5000ms.

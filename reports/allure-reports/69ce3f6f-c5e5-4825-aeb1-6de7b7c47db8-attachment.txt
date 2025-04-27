@@ -1,0 +1,6 @@
+INFO     App_Run_Test:base_page.py:14 Waiting for element: .__2_plans__wQ74W > div:nth-child(2)
+INFO     App_Run_Test:ui_actions.py:18 Clicked on '.__2_plans__wQ74W > div:nth-child(2)' element
+INFO     App_Run_Test:base_page.py:14 Waiting for element: .__2_products_btn__xotob > .Button_button_main__pamo6
+INFO     App_Run_Test:ui_actions.py:18 Clicked on '.__2_products_btn__xotob > .Button_button_main__pamo6' element
+INFO     App_Run_Test:base_page.py:14 Waiting for element: .w-full.mt-auto > .Button_button_main__pamo6
+INFO     App_Run_Test:ui_actions.py:18 Clicked on '.w-full.mt-auto > .Button_button_main__pamo6' element

@@ -1,0 +1,18 @@
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="FREE 2 ₪ 44.90 לחודש"]
+ERROR    App_Run_Test:base_page.py:19 Element 'role=button[name="FREE 2 ₪ 44.90 לחודש"]' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("role=button[name=\"FREE 2 ₪ 44.90 לחודש\"]") to be visible
+
+ERROR    App_Run_Test:ui_actions.py:23 Error while getting element: role=button[name="FREE 2 ₪ 44.90 לחודש"]. Exception: Element 'role=button[name="FREE 2 ₪ 44.90 לחודש"]' not found within 5000ms.
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="בואו נמשיך"]
+ERROR    App_Run_Test:base_page.py:19 Element 'role=button[name="בואו נמשיך"]' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("role=button[name=\"בואו נמשיך\"]") to be visible
+
+ERROR    App_Run_Test:ui_actions.py:23 Error while getting element: role=button[name="בואו נמשיך"]. Exception: Element 'role=button[name="בואו נמשיך"]' not found within 5000ms.
+INFO     App_Run_Test:base_page.py:13 Waiting for element: .w-full.mt-auto > .Button_button_main__pamo6
+ERROR    App_Run_Test:base_page.py:19 Element '.w-full.mt-auto > .Button_button_main__pamo6' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator(".w-full.mt-auto > .Button_button_main__pamo6") to be visible
+
+ERROR    App_Run_Test:ui_actions.py:23 Error while getting element: .w-full.mt-auto > .Button_button_main__pamo6. Exception: Element '.w-full.mt-auto > .Button_button_main__pamo6' not found within 5000ms.

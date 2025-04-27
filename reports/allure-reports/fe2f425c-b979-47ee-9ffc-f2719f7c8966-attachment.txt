@@ -1,0 +1,2 @@
+INFO     App_Run_Test:base_page.py:12 Waiting for element 'role=button[name="בואו נתחיל"]' to be enabled.
+INFO     App_Run_Test:ui_actions.py:20 Clicked on 'role=button[name="בואו נתחיל"]' element

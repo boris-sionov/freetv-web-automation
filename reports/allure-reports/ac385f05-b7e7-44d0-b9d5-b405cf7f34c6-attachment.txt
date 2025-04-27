@@ -1,0 +1,20 @@
+INFO     App_Run_Test:base_page.py:12 Waiting for element: role=button[name="מספר כרטיס אשראי"]
+INFO     App_Run_Test:ui_actions.py:22 Clicked on 'role=button[name="מספר כרטיס אשראי"]' element
+INFO     App_Run_Test:base_page.py:22 Waiting for element '#card-number' inside frame '#ua_main_aria iframe' for up to 5000ms.
+INFO     App_Run_Test:base_page.py:26 Element '#card-number' is now visible inside frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:ui_actions.py:52 Filled '4580160117972457' into element '#card-number' in frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:base_page.py:22 Waiting for element '#expYear' inside frame '#ua_main_aria iframe' for up to 5000ms.
+INFO     App_Run_Test:base_page.py:26 Element '#expYear' is now visible inside frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:ui_actions.py:56 Selected '26' from element '#expYear' in frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:base_page.py:22 Waiting for element '#expMonth' inside frame '#ua_main_aria iframe' for up to 5000ms.
+INFO     App_Run_Test:base_page.py:26 Element '#expMonth' is now visible inside frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:ui_actions.py:56 Selected '06' from element '#expMonth' in frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:base_page.py:22 Waiting for element '#cvv' inside frame '#ua_main_aria iframe' for up to 5000ms.
+INFO     App_Run_Test:base_page.py:26 Element '#cvv' is now visible inside frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:ui_actions.py:52 Filled '679' into element '#cvv' in frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:base_page.py:22 Waiting for element '#personal-id' inside frame '#ua_main_aria iframe' for up to 5000ms.
+INFO     App_Run_Test:base_page.py:26 Element '#personal-id' is now visible inside frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:ui_actions.py:52 Filled '310437017' into element '#personal-id' in frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:base_page.py:22 Waiting for element '#cg-submit-btn' inside frame '#ua_main_aria iframe' for up to 5000ms.
+INFO     App_Run_Test:base_page.py:26 Element '#cg-submit-btn' is now visible inside frame '#ua_main_aria iframe'.
+INFO     App_Run_Test:ui_actions.py:60 Clicked on element '#cg-submit-btn' in frame '#ua_main_aria iframe'.

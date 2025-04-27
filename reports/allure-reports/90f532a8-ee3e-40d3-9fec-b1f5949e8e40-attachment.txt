@@ -1,0 +1,10 @@
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="* טלפון"]
+INFO     App_Run_Test:ui_actions.py:17 Clicked on 'role=textbox[name="* טלפון"]' element
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="* טלפון"]
+INFO     App_Run_Test:ui_actions.py:26 Filled '0504963671' into 'role=textbox[name="* טלפון"]' element
+INFO     App_Run_Test:base_page.py:13 Waiting for element: role=textbox[name="בואו נמשיך"]
+ERROR    App_Run_Test:base_page.py:19 Element 'role=textbox[name="בואו נמשיך"]' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
+Call log:
+  - waiting for locator("role=textbox[name=\"בואו נמשיך\"]") to be visible
+
+ERROR    App_Run_Test:ui_actions.py:19 Error while getting element: role=textbox[name="בואו נמשיך"]. Exception: Element 'role=textbox[name="בואו נמשיך"]' not found within 5000ms.

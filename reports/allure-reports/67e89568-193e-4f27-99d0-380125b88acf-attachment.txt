@@ -1,0 +1,6 @@
+INFO     App_Run_Test:base_page.py:12 Waiting for element 'role=button[name="FREE 2 ₪ 44.90 לחודש"]' to be enabled.
+INFO     App_Run_Test:ui_actions.py:20 Clicked on 'role=button[name="FREE 2 ₪ 44.90 לחודש"]' element
+INFO     App_Run_Test:base_page.py:12 Waiting for element 'role=button[name="בואו נמשיך"]' to be enabled.
+INFO     App_Run_Test:ui_actions.py:20 Clicked on 'role=button[name="בואו נמשיך"]' element
+INFO     App_Run_Test:base_page.py:12 Waiting for element '.w-full.mt-auto > .Button_button_main__pamo6' to be enabled.
+INFO     App_Run_Test:ui_actions.py:20 Clicked on '.w-full.mt-auto > .Button_button_main__pamo6' element

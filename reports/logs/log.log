@@ -1,0 +1,59 @@
+27/Apr/2025 12:28:04 Sunday - App_Run_Test - [INFO] : Waiting for element '.Hero_btn__LNbtR > .Button_button_main__pamo6' to be enabled.
+27/Apr/2025 12:28:05 Sunday - App_Run_Test - [INFO] : Clicked on '.Hero_btn__LNbtR > .Button_button_main__pamo6' element
+27/Apr/2025 12:28:05 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=button[name="בואו נתחיל"]' to be enabled.
+27/Apr/2025 12:28:06 Sunday - App_Run_Test - [INFO] : Clicked on 'role=button[name="בואו נתחיל"]' element
+27/Apr/2025 12:28:11 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=textbox[name="* טלפון"]' to be enabled.
+27/Apr/2025 12:28:11 Sunday - App_Run_Test - [INFO] : Filled '0504963671' into 'role=textbox[name="* טלפון"]' element
+27/Apr/2025 12:28:11 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=button[name="בואו נמשיך"]' to be enabled.
+27/Apr/2025 12:28:12 Sunday - App_Run_Test - [INFO] : Clicked on 'role=button[name="בואו נמשיך"]' element
+27/Apr/2025 12:28:12 Sunday - App_Run_Test - [INFO] : Connecting to GMX IMAP server...
+27/Apr/2025 12:28:12 Sunday - App_Run_Test - [INFO] : Connected to GMX email account and inbox selected.
+27/Apr/2025 12:28:12 Sunday - App_Run_Test - [INFO] : No new emails yet. Retrying...
+27/Apr/2025 12:28:17 Sunday - App_Run_Test - [INFO] : No new emails yet. Retrying...
+27/Apr/2025 12:28:22 Sunday - App_Run_Test - [INFO] : No new emails yet. Retrying...
+27/Apr/2025 12:28:28 Sunday - App_Run_Test - [INFO] : No new emails yet. Retrying...
+27/Apr/2025 12:28:33 Sunday - App_Run_Test - [INFO] : No new emails yet. Retrying...
+27/Apr/2025 12:28:38 Sunday - App_Run_Test - [INFO] : OTP successfully retrieved: 5041
+27/Apr/2025 12:28:38 Sunday - App_Run_Test - [INFO] : OTP email deleted from inbox.
+27/Apr/2025 12:28:38 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=textbox[name="יש להזין קוד אימות שנשלח אליך בSMS - ספרה ראשונה"]' to be enabled.
+27/Apr/2025 12:28:39 Sunday - App_Run_Test - [INFO] : Filled '5' into 'role=textbox[name="יש להזין קוד אימות שנשלח אליך בSMS - ספרה ראשונה"]' element
+27/Apr/2025 12:28:39 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=textbox[name="ספרה שניה"]' to be enabled.
+27/Apr/2025 12:28:39 Sunday - App_Run_Test - [INFO] : Filled '0' into 'role=textbox[name="ספרה שניה"]' element
+27/Apr/2025 12:28:39 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=textbox[name="ספרה שלישית"]' to be enabled.
+27/Apr/2025 12:28:40 Sunday - App_Run_Test - [INFO] : Filled '4' into 'role=textbox[name="ספרה שלישית"]' element
+27/Apr/2025 12:28:40 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=textbox[name="ספרה רביעית"]' to be enabled.
+27/Apr/2025 12:28:40 Sunday - App_Run_Test - [INFO] : Filled '1' into 'role=textbox[name="ספרה רביעית"]' element
+27/Apr/2025 12:28:40 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=button[name="בואו נמשיך"]' to be enabled.
+27/Apr/2025 12:28:42 Sunday - App_Run_Test - [INFO] : Clicked on 'role=button[name="בואו נמשיך"]' element
+27/Apr/2025 12:28:42 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=button[name="FREE 2 ₪ 44.90 לחודש"]' to be enabled.
+27/Apr/2025 12:28:43 Sunday - App_Run_Test - [INFO] : Clicked on 'role=button[name="FREE 2 ₪ 44.90 לחודש"]' element
+27/Apr/2025 12:28:43 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=button[name="בואו נמשיך"]' to be enabled.
+27/Apr/2025 12:28:43 Sunday - App_Run_Test - [INFO] : Clicked on 'role=button[name="בואו נמשיך"]' element
+27/Apr/2025 12:28:43 Sunday - App_Run_Test - [INFO] : Waiting for element '.w-full.mt-auto > .Button_button_main__pamo6' to be enabled.
+27/Apr/2025 12:28:45 Sunday - App_Run_Test - [INFO] : Clicked on '.w-full.mt-auto > .Button_button_main__pamo6' element
+27/Apr/2025 12:28:45 Sunday - App_Run_Test - [INFO] : Waiting for element '[name="firstName"]' to be enabled.
+27/Apr/2025 12:28:46 Sunday - App_Run_Test - [INFO] : Filled 'Registration test' into '[name="firstName"]' element
+27/Apr/2025 12:28:46 Sunday - App_Run_Test - [INFO] : Waiting for element '[name="lastName"]' to be enabled.
+27/Apr/2025 12:28:46 Sunday - App_Run_Test - [INFO] : Filled 'Automation' into '[name="lastName"]' element
+27/Apr/2025 12:28:46 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=button[name="מספר כרטיס אשראי"]' to be enabled.
+27/Apr/2025 12:28:47 Sunday - App_Run_Test - [INFO] : Clicked on 'role=button[name="מספר כרטיס אשראי"]' element
+27/Apr/2025 12:28:47 Sunday - App_Run_Test - [INFO] : Waiting for element '#card-number' inside frame '#ua_main_aria iframe' for up to 5000ms.
+27/Apr/2025 12:28:48 Sunday - App_Run_Test - [INFO] : Element '#card-number' is now visible inside frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:49 Sunday - App_Run_Test - [INFO] : Filled '4580160117972457' into element '#card-number' in frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:49 Sunday - App_Run_Test - [INFO] : Waiting for element '#expYear' inside frame '#ua_main_aria iframe' for up to 5000ms.
+27/Apr/2025 12:28:49 Sunday - App_Run_Test - [INFO] : Element '#expYear' is now visible inside frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:49 Sunday - App_Run_Test - [INFO] : Selected '26' from element '#expYear' in frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:49 Sunday - App_Run_Test - [INFO] : Waiting for element '#expMonth' inside frame '#ua_main_aria iframe' for up to 5000ms.
+27/Apr/2025 12:28:49 Sunday - App_Run_Test - [INFO] : Element '#expMonth' is now visible inside frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:50 Sunday - App_Run_Test - [INFO] : Selected '06' from element '#expMonth' in frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:50 Sunday - App_Run_Test - [INFO] : Waiting for element '#cvv' inside frame '#ua_main_aria iframe' for up to 5000ms.
+27/Apr/2025 12:28:50 Sunday - App_Run_Test - [INFO] : Element '#cvv' is now visible inside frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:51 Sunday - App_Run_Test - [INFO] : Filled '679' into element '#cvv' in frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:51 Sunday - App_Run_Test - [INFO] : Waiting for element '#personal-id' inside frame '#ua_main_aria iframe' for up to 5000ms.
+27/Apr/2025 12:28:51 Sunday - App_Run_Test - [INFO] : Element '#personal-id' is now visible inside frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:51 Sunday - App_Run_Test - [INFO] : Filled '310437017' into element '#personal-id' in frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:51 Sunday - App_Run_Test - [INFO] : Waiting for element '#cg-submit-btn' inside frame '#ua_main_aria iframe' for up to 5000ms.
+27/Apr/2025 12:28:51 Sunday - App_Run_Test - [INFO] : Element '#cg-submit-btn' is now visible inside frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:52 Sunday - App_Run_Test - [INFO] : Clicked on element '#cg-submit-btn' in frame '#ua_main_aria iframe'.
+27/Apr/2025 12:28:52 Sunday - App_Run_Test - [INFO] : Waiting for element 'role=checkbox[name="קראתי ואישרתי"]' to be enabled.
+27/Apr/2025 12:28:55 Sunday - App_Run_Test - [INFO] : Clicked on 'role=checkbox[name="קראתי ואישרתי"]' element

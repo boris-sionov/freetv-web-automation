@@ -1,0 +1,1 @@
+ERROR    App_Run_Test:ui_actions.py:23 Error while clicking on element: .Hero_btn__LNbtR > .Button_button_main__pamo6. Exception: 'UIActions' object has no attribute 'wait_for_element'
