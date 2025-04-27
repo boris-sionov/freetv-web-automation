@@ -13,7 +13,7 @@ class UIVerifications(BasePage):
         self.general_actions = GeneralActions(page)
 
     def verify_text_in_element(self, locator, expected_text):
-        element = self.wait_for_element(locator)
+        element = self.wait_for_element_enabled(locator)
         actual_text = element.text
 
         if expected_text == actual_text:

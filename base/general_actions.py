@@ -33,7 +33,7 @@ class GeneralActions(BasePage):
         screenshot_path = os.path.join(screenshot_directory, file_name)
 
         try:
-            self.__page.screenshot(path=screenshot_path, full_page=True)
+            self.page.screenshot(path=screenshot_path, full_page=True)
             self.log.info("Screenshot saved to Path: " + screenshot_path)
             return file_name  # Return the file name
         except Exception as e:
@@ -46,7 +46,7 @@ class GeneralActions(BasePage):
         """
         try:
             self.log.info(f"Getting iframe at index {index}")
-            frames = self.__page.frames
+            frames = self.page.frames
             if index < len(frames):
                 frame = frames[index]
                 self.log.info(f"Frame at index {index} retrieved successfully.")

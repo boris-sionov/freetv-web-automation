@@ -8,4 +8,3 @@ screenshot_directory = os.path.join(root_dir, 'reports', 'screenshots') + "/"
 allure_report_directory = os.path.join(root_dir, 'reports', 'allure-reports') + "/"
 log_file_path = os.path.join(root_dir, 'reports', 'logs', 'log.log')
 config_file_path = os.path.join(root_dir, 'configuration', 'config.ini')
-apk_file_path = os.path.join(root_dir, 'utilities', '')  # Add name of apk file when testing Android mobile

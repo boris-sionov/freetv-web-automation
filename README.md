@@ -23,21 +23,34 @@ cd configuration
 pip install -r requirements.txt
 ```
 
+Install Browsers:
+```bash
+python -m playwright install
+```
+
+
+
 ## ⚙️ Configure Settings
 
 After installing dependencies, make sure to update the `config.ini` file with the correct values:
 
 ```ini
 [web]
-url = https://freetv.tv/
-browser = chrome
+url = 
 
 [general]
-platform = web
+platform = 
 
 [account]
 ; Add phone number, first and last name
-phone_number =
-first_name = Registration test
-last_name = Automation
+phone_number = 
+first_name = 
+last_name = 
+```
+
+Choose Browser to run the test:
+Open `pytest.ini` file and choose your desired browser (Chromium, Firefox, Webkit)
+```ini
+[pytest]
+--browser=chromium
 ```

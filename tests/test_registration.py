@@ -21,7 +21,8 @@ class TestLogin(PageFactory):
 
     @allure.description("Test 03 - Enter phone number")
     def test_03_enter_phone_number(self):
-        self.registration_page.fill_in_phone_number("0504963671")
+        phone_number = ConfigReader.read_config("account", "phone_number")
+        self.registration_page.fill_in_phone_number(phone_number)
 
     @allure.description("Test 04 - Fill in OTP code received from email`")
     def test_04_enter_otp_code(self):

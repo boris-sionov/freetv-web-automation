@@ -14,7 +14,7 @@ class RegistrationPage(BasePage):
         self.general_actions = GeneralActions(page)
         self.ui_actions = UIActions(page, self)
         self.ui_verifications = UIVerifications(page)
-        self.__page = page
+        self.page = page
 
     # -------------------- Buttons --------------------
     __lets_start_btn = 'role=button[name="בואו נתחיל"]'

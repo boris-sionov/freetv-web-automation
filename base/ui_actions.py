@@ -5,6 +5,7 @@ import time
 from email.utils import parsedate_to_datetime
 
 from base.base_page import BasePage
+from utilities.config import ConfigReader
 
 
 class UIActions(BasePage):
@@ -64,8 +65,8 @@ class UIActions(BasePage):
 
     def retrieve_otp_code(self, timeout=60, poll_interval=5):
         imap_server = "imap.gmx.com"
-        email_address = "boris.freetv@gmx.com"
-        password = "Israel23-02"
+        email_address = ConfigReader.read_config("otp", "email")
+        password = ConfigReader.read_config("otp", "password")
 
         start_time = time.time()
         self.log.info("Connecting to GMX IMAP server...")
