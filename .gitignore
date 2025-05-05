@@ -140,8 +140,6 @@ Automation_Project.iml
 
 # Project configuration
 configuration/config.ini
-config.ini
-git add -f configuration/config.ini
 
 
 
