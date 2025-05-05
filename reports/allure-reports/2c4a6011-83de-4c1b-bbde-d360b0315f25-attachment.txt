@@ -1,2 +1,0 @@
-ERROR    App_Run_Test:ui_actions.py:32 Error while filling text into element: role=textbox[name="* טלפון"]. Exception: 'UIActions' object has no attribute 'wait_for_element'
-ERROR    App_Run_Test:ui_actions.py:23 Error while clicking on element: role=button[name="בואו נמשיך"]. Exception: 'UIActions' object has no attribute 'wait_for_element'

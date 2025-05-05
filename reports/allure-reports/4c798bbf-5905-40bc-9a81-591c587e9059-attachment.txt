@@ -1,9 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: .__2_payment_item__B7wMU > .__2_payment_item_wrapper__wUtRV
-INFO     App_Run_Test:ui_actions.py:17 Clicked on '.__2_payment_item__B7wMU > .__2_payment_item_wrapper__wUtRV' element
-DEBUG    App_Run_Test:registration_page.py:97 starting to change frame
-INFO     App_Run_Test:base_page.py:13 Waiting for element: #cg-submit-btn
-ERROR    App_Run_Test:base_page.py:19 Element '#cg-submit-btn' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
-Call log:
-  - waiting for locator("#cg-submit-btn") to be visible
-
-ERROR    App_Run_Test:ui_actions.py:19 Error while getting element: #cg-submit-btn. Exception: Element '#cg-submit-btn' not found within 5000ms.

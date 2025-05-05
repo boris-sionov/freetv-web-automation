@@ -41,15 +41,14 @@ class TestLogin(PageFactory):
     @allure.description("Test 07 - Fill in credit card info")
     def test_07_enter_credit_card_info(self):
         # Add credit card info before running
-        credit_card = ""
-        year_exp = ""
-        month_exp = ""
-        cvv = ""
-        id_number = ""
+        credit_card = ConfigReader.read_config("credit_card", "card_number")
+        year_exp = ConfigReader.read_config("credit_card", "year_exp")
+        month_exp = ConfigReader.read_config("credit_card", "month_exp")
+        cvv = ConfigReader.read_config("credit_card", "cvv")
+        id_number = ConfigReader.read_config("credit_card", "id_number")
         self.registration_page.fill_credit_card_info(credit_card, year_exp, month_exp, cvv, id_number)
 
     @allure.description("Test 08 - Finish Registration")
     def test_08_finish(self):
         self.registration_page.click_on_privacy_agree()
         # self.registration_page.click_on_finish()
-

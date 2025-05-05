@@ -1,2 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: .Hero_btn__LNbtR > .Button_button_main__pamo6
-INFO     App_Run_Test:ui_actions.py:21 Clicked on '.Hero_btn__LNbtR > .Button_button_main__pamo6' element

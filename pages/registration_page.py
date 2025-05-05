@@ -12,9 +12,9 @@ class RegistrationPage(BasePage):
     def __init__(self, page):
         super().__init__(page)
         self.general_actions = GeneralActions(page)
-        self.ui_actions = UIActions(page, self)
+        self.ui_actions = UIActions(page)
         self.ui_verifications = UIVerifications(page)
-        self.page = page
+        # self.page = page
 
     # -------------------- Buttons --------------------
     __lets_start_btn = 'role=button[name="בואו נתחיל"]'
@@ -58,7 +58,7 @@ class RegistrationPage(BasePage):
 
     def fill_in_otp_code(self):
         with allure.step("Fill in OTP code"):
-            otp_code = self.ui_actions.retrieve_otp_code()
+            otp_code = self.ui_actions.retrieve_otp_from_twillo()
             self.ui_actions.fill_in_otp(self, otp_code)
             self.ui_actions.press(self.__lets_continue_btn)
 

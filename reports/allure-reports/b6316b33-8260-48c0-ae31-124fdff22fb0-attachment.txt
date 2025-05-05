@@ -1,4 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: [name="firstName"]
-INFO     App_Run_Test:ui_actions.py:26 Filled 'Registration test' into '[name="firstName"]' element
-INFO     App_Run_Test:base_page.py:13 Waiting for element: [name="lastName"]
-INFO     App_Run_Test:ui_actions.py:26 Filled 'Automation' into '[name="lastName"]' element

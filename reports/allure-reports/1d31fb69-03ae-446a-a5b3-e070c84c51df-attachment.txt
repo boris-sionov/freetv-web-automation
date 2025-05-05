@@ -1,8 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="מספר כרטיס אשראי"]
-INFO     App_Run_Test:ui_actions.py:21 Clicked on 'role=button[name="מספר כרטיס אשראי"]' element
-INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="הוספת כרטיס"]
-ERROR    App_Run_Test:base_page.py:19 Element 'role=button[name="הוספת כרטיס"]' not found within 5000ms. Exception: Locator.wait_for: Timeout 5000ms exceeded.
-Call log:
-  - waiting for locator("role=button[name=\"הוספת כרטיס\"]") to be visible
-
-ERROR    App_Run_Test:ui_actions.py:23 Error while getting element: role=button[name="הוספת כרטיס"]. Exception: Element 'role=button[name="הוספת כרטיס"]' not found within 5000ms.

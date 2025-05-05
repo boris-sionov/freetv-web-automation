@@ -1,4 +1,0 @@
-INFO     App_Run_Test:base_page.py:12 Waiting for element 'role=textbox[name="* טלפון"]' to be enabled.
-INFO     App_Run_Test:ui_actions.py:28 Filled '0504963671' into 'role=textbox[name="* טלפון"]' element
-INFO     App_Run_Test:base_page.py:12 Waiting for element 'role=button[name="בואו נמשיך"]' to be enabled.
-INFO     App_Run_Test:ui_actions.py:20 Clicked on 'role=button[name="בואו נמשיך"]' element

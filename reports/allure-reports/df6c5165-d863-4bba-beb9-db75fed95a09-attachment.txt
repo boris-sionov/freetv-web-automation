@@ -1,8 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="מספר כרטיס אשראי"]
-INFO     App_Run_Test:ui_actions.py:21 Clicked on 'role=button[name="מספר כרטיס אשראי"]' element
-INFO     App_Run_Test:ui_actions.py:50 Filled '4580160117972457' into '#card-number' in '#ua_main_aria iframe'
-INFO     App_Run_Test:ui_actions.py:53 Selected '26' from '#expYear' in '#ua_main_aria iframe'
-INFO     App_Run_Test:ui_actions.py:53 Selected '06' from '#expMonth' in '#ua_main_aria iframe'
-INFO     App_Run_Test:ui_actions.py:50 Filled '679' into '#cvv' in '#ua_main_aria iframe'
-INFO     App_Run_Test:ui_actions.py:50 Filled '310437017' into '#personal-id' in '#ua_main_aria iframe'
-INFO     App_Run_Test:ui_actions.py:56 Clicked on '#cg-submit-btn ' element in '#ua_main_aria iframe'

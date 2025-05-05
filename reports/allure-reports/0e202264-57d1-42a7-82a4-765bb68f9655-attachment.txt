@@ -1,4 +1,0 @@
-INFO     App_Run_Test:base_page.py:14 Waiting for element: .FloatingInput_wrapper__eyHuD.border-gray-border
-INFO     App_Run_Test:ui_actions.py:18 Clicked on '.FloatingInput_wrapper__eyHuD.border-gray-border' element
-DEBUG    App_Run_Test:ui_actions.py:34 starting to typw with keyboard
-ERROR    App_Run_Test:ui_actions.py:38 Failed to type text using keyboard. Error: 'UIActions' object has no attribute '_UIActions__page'

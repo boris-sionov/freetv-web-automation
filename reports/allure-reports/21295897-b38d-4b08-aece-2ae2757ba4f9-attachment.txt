@@ -1,1 +1,0 @@
-ERROR    App_Run_Test:ui_actions.py:23 Error while clicking on element: role=button[name="בואו נתחיל"]. Exception: 'UIActions' object has no attribute 'wait_for_element'

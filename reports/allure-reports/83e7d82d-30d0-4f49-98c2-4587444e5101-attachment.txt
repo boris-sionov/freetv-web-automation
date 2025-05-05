@@ -1,2 +1,0 @@
-INFO     App_Run_Test:base_page.py:12 Waiting for element '.Hero_btn__LNbtR > .Button_button_main__pamo6' to be enabled.
-ERROR    App_Run_Test:ui_actions.py:23 Error while clicking on element: .Hero_btn__LNbtR > .Button_button_main__pamo6. Exception: 'BrowserContext' object has no attribute 'timeouts'

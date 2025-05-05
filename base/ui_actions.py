@@ -10,9 +10,9 @@ from utilities.config import ConfigReader
 
 class UIActions(BasePage):
 
-    def __init__(self, page, page_obj):
+    def __init__(self, page):
         super().__init__(page)
-        self.page_obj = page_obj
+        # self.page_obj = page_obj
 
     def press(self, locator):
         try:
@@ -143,3 +143,12 @@ class UIActions(BasePage):
             locator_attr_name = f"_{type(page_obj).__name__}__OTP_digit{i}"
             locator = getattr(page_obj, locator_attr_name)
             self.fill_in_text(locator, digit)
+
+    def retrieve_otp_from_twillo(self):
+        self.log.info("Getting OTP code from Twilio server")
+        otp_code = self.get_latest_otp()
+        if otp_code:
+            self.log.info(f"OTP received: {otp_code}")
+        else:
+            self.log.error()("OTP not found.")
+        return otp_code

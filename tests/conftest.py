@@ -1,9 +1,6 @@
 import pytest
-import time
 
 import utilities.custom_logger as CL
-from pages.landing_page import LandingPage
-from pages.registration_page import RegistrationPage
 from utilities.config import ConfigReader
 from utilities.page_factory import PageFactory
 

@@ -1,4 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: .__2_payment_item__B7wMU > .__2_payment_item_wrapper__wUtRV
-INFO     App_Run_Test:ui_actions.py:17 Clicked on '.__2_payment_item__B7wMU > .__2_payment_item_wrapper__wUtRV' element
-INFO     App_Run_Test:base_page.py:13 Waiting for element: #ua_main_aria iframe
-INFO     App_Run_Test:ui_actions.py:17 Clicked on '#ua_main_aria iframe' element

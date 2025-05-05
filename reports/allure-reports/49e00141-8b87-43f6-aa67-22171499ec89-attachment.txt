@@ -1,2 +1,0 @@
-INFO     App_Run_Test:base_page.py:13 Waiting for element: role=button[name="בואו נתחיל"]
-INFO     App_Run_Test:ui_actions.py:22 Clicked on 'role=button[name="בואו נתחיל"]' element

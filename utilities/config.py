@@ -1,6 +1,5 @@
 import configparser
 import os
-import sys
 
 # Define root_dir
 root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))

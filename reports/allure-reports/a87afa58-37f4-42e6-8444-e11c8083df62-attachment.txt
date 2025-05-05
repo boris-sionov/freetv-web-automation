@@ -1,3 +1,0 @@
-INFO     App_Run_Test:base_page.py:14 Waiting for element: .__2_payment_item__B7wMU > .__2_payment_item_wrapper__wUtRV
-INFO     App_Run_Test:ui_actions.py:18 Clicked on '.__2_payment_item__B7wMU > .__2_payment_item_wrapper__wUtRV' element
-DEBUG    App_Run_Test:registration_page.py:98 starting to change frame
